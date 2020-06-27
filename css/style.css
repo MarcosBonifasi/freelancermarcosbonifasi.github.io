@@ -22,8 +22,16 @@ body {
     font-size: 1.6rem;
 }
 
+img {
+    max-height: 100%;
+}
+
 h1, h2, h3 {
     margin: 0;
+}
+
+h4 {
+    font-size: 2.5rem;
 }
 
 h2, h2 {
@@ -34,6 +42,12 @@ h3 {
     color: var(--secundario);
     font-size: 400;
     font-size: 3rem;
+}
+
+h5 {
+    margin: 0;
+    font-size: 2rem;
+    color: #073461;
 }
 
 p {
@@ -368,9 +382,6 @@ main h2 {
 }
 
 /*Servicios*/
-.cards-servicios {
-        
-}
 
 @media (min-width: 768px){
     .cards-servicios {
@@ -380,22 +391,24 @@ main h2 {
 
 .contenedor-servicio {
     text-align: center;
-    font-size: 2rem;
     margin: 2rem 2rem;
     padding: 2rem 2rem;
-    background-color: #dbe7ff;
-    -webkit-box-shadow: 9px 9px 9px -6px rgba(0,0,0,0.8);
-    -moz-box-shadow: 9px 9px 9px -6px rgba(0,0,0,0.8);
-    box-shadow: 9px 9px 9px -6px rgba(0,0,0,0.8);
+    background-color: #e9edf1;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.53);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.53);
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.53);
     border-radius: 15px;
     transition: background-color .5s ease;
-}
-.contenedor-servicio:hover{
-    background-color: #bdcdee;
+    text-align: center;
 }
 
 .contenedor-servicio h4 {
-    margin: 0 0 1.5rem 0;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.contenedor-servicio:hover{
+    background-color: #bdcdee;
 }
 
 @media (min-width: 768px){
@@ -407,8 +420,48 @@ main h2 {
         justify-content: center;
         margin: 1rem;
     }
+    .contenedor-servicio h4 {
+        margin: 2rem 0;
+    }
 }
+
 
 .icono-servicio {
     font-size: 8rem;
+}
+
+.contenido-servicios h4:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: .5rem;
+    background-color: #073461;
+    margin-bottom: 1rem;
+}
+
+.contenido-servicios {
+    margin: 2rem;
+}
+
+@media (min-width: 768px){
+    .contenido-servicios {
+        margin: 1rem;
+    }
+}
+
+.aplicacion {
+    align-items: center;
+}
+
+.aplicacion img {
+    display: block;
+    width: 30rem;
+    margin: 1rem 2rem;
+}
+
+@media (min-width: 650px){
+    .aplicacion img {
+        float: left;
+        margin: 0 3rem 3rem 0;
+    }
 }
