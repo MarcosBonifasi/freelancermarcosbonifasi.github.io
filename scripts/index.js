@@ -12,15 +12,15 @@ let aplicacionMovil = document.getElementById("aplicacion-movil");
 let aplicacionWeb = document.getElementById("desarrollo-web");
 
 refIndex.onclick = () => {
-    window.location.href = "../index.html";
+    console.log("works JS");
 }
 
 refQuienSoy.onclick = () => {
-    window.location.href = "../quiensoy.html";
+    document.location.href = "../quiensoy.html";
 }
 
 refServicios.onclick = () => {
-    window.location.href = "../servicios.html";
+    document.location.href = "../servicios.html";
 }
 
 refContacto.onclick = () =>{
