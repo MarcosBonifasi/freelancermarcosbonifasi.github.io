@@ -455,13 +455,15 @@ main h2 {
 
 .aplicacion img {
     display: block;
-    width: 30rem;
-    margin: 1rem 2rem;
+    max-width: 100%;
+    width: auto;
+    margin: 1rem 0;
 }
 
 @media (min-width: 650px){
     .aplicacion img {
         float: left;
-        margin: 0 3rem 3rem 0;
+        margin: 0 3rem 2rem 0;
+        width: 30rem;
     }
 }
