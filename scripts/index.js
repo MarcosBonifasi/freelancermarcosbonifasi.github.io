@@ -30,20 +30,20 @@ refContacto.onclick = () =>{
 enlaceDeEscritorio.onclick = () => {
     document.location.href = "../servicios.html#aplicacion-escritorio";
     aplicacionEscritorio.style = "background-color: #d8e1e1;";
-    aplicacionMovil.style = "background-color: white";
-    aplicacionWeb.style = "background-color: white";
+    aplicacionMovil.style = "background-color: white;";
+    aplicacionWeb.style = "background-color: white;";
 }
 
 enlaceDesarolloMovil.onclick = () => {
     document.location.href = "../servicios.html#enlace-desarrollo-movil";
     aplicacionMovil.style = "background-color: #d8e1e1;";
-    aplicacionEscritorio.style = "background-color: white";
-    aplicacionWeb.style = "background-color: white";
+    aplicacionEscritorio.style = "background-color: white;";
+    aplicacionWeb.style = "background-color: white;";
 }
 
 enlaceDesarrolloWeb.onclick = () => {
     document.location.href = "../servicios.html#enlace-desarrollo-web";
     aplicacionWeb.style = "background-color: #d8e1e1;";
     aplicacionMovil.style = "background-color: white;";
-    aplicacionEscritorio.style = "background-color: white";
+    aplicacionEscritorio.style = "background-color: white;";
 }
